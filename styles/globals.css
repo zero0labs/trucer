@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: black;
+  color: white;
+
+  margin: 0;
+  padding: 0;
+}
+
+/* CREATE TAILWIND CLASS */
+
+@layer components {
+  .form-input {
+    @apply w-full text-black py-1 rounded-full outline-none border-2 border-[#f7c655] px-4;
+  }
+  .form-header {
+    @apply text-xl mb-1;
+  }
+}
+
+ 

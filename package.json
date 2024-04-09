@@ -1,0 +1,44 @@
+{
+  "name": "zero-forgery-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@metamask/providers": "^10.2.1",
+    "@next/font": "13.1.6",
+    "@rainbow-me/rainbowkit": "^0.11.0",
+    "@solana/wallet-adapter-react": "^0.15.35",
+    "@solana/wallet-adapter-wallets": "^0.19.32",
+    "@types/node": "18.11.19",
+    "@types/react": "18.0.27",
+    "@types/react-dom": "18.0.10",
+    "@web3modal/ethereum": "^2.1.1",
+    "@web3modal/react": "^2.1.1",
+    "@zero-forgery/common": "^1.0.6",
+    "eslint": "8.33.0",
+    "eslint-config-next": "13.1.6",
+    "ethers": "^5",
+    "next": "13.1.6",
+    "qrcode": "^1.5.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hot-toast": "^2.4.0",
+    "typescript": "4.9.5",
+    "use-react-screenshot": "^3.0.0",
+    "vue-router": "^4.3.0",
+    "wagmi": "^0.11.5",
+    "web3modal": "^1.9.12"
+  },
+  "devDependencies": {
+    "@types/qrcode": "^1.5.0",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "sass": "^1.58.0",
+    "tailwindcss": "^3.2.7"
+  }
+}
